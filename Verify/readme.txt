@@ -1,14 +1,19 @@
-Ó¦ÓÃÃû³Æ£ºÑéÖ¤ÂëÉú³ÉÏµÍ³
-ÑéÖ¤ÂëÉú³ÉºËĞÄÀà£ºsrc--com.px.util--VaildateCodeUtil.java
+åº”ç”¨åç§°ï¼šéªŒè¯ç ç”Ÿæˆç³»ç»Ÿ
+éªŒè¯ç ç”Ÿæˆæ ¸å¿ƒç±»ï¼šsrc--com.px.util--VaildateCodeUtil.java
 
 VaildateCodeUtil.java
 
 public static BufferedImage getVaildateCode(String content)
-¹¦ÄÜ£ºÉú³ÉÑéÖ¤ÂëÍ¼Æ¬
-ÊäÈë£ºString content ÑéÖ¤ÂëµÄÄÚÈİ
-Êä³ö£ºBufferedImage buf  ÑéÖ¤ÂëÍ¼Æ¬
+åŠŸèƒ½ï¼šç”ŸæˆéªŒè¯ç å›¾ç‰‡
+è¾“å…¥ï¼šString content éªŒè¯ç çš„å†…å®¹
+è¾“å‡ºï¼šBufferedImage buf  éªŒè¯ç å›¾ç‰‡
 
 public static Color getRandColor(int from,int to)
-¹¦ÄÜ£ºÉú³ÉËæ»úÉ«
-ÊäÈë£ºint from,int to  Ëæ»úÉ«È¡É«·¶Î§
-Êä³ö£ºColor new Color(r, g, b)  Color¶ÔÏó
+åŠŸèƒ½ï¼šç”Ÿæˆéšæœºè‰²
+è¾“å…¥ï¼šint from,int to  éšæœºè‰²å–è‰²èŒƒå›´
+è¾“å‡ºï¼šColor new Color(r, g, b)  Colorå¯¹è±¡
+
+WebRoot--
+ index.jsp ------------ä¸»é¡µï¼Œæäº¤éªŒè¯ç 
+ valiCode.jsp----------ç”ŸæˆéªŒè¯ç ï¼Œæäº¤ç»™index.jsp
+ val.jsp---------------æäº¤éªŒè¯åï¼ŒéªŒè¯æ˜¯å¦è¾“å…¥æ­£ç¡®
